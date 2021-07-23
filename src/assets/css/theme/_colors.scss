@@ -1,0 +1,77 @@
+$primary-50: #E0EAFE;
+$primary-100: #B3C9FE; 
+$primary-200: #80A6FD; 
+$primary-300: #4D82FC; 
+$primary-400: #2667FB; 
+$primary-500: #004CFA; // Main
+$primary-600: #0045F9; 
+$primary-700: #003CF9;
+$primary-800: #0033F8; 
+$primary-900: #0024F6; 
+
+$accent-50: #ffe8f0;
+$accent-100: #ffc5d9;
+$accent-200: #ff9ec0;
+$accent-300: #ff77a6;
+$accent-400: #ff5993;
+$accent-500: #ff3c80; // Main
+$accent-600: #ff3678;
+$accent-700: #ff2e6d;
+$accent-800: #ff2763;
+$accent-900: #ff1a50;
+
+$shade-50: #eaeaea;
+$shade-100: #cbcbcc;
+$shade-200: #a9a9aa;
+$shade-300: #868687;
+$shade-400: #6c6c6e;
+$shade-500: #525254; // Main
+$shade-600: #4b4b4d;
+$shade-700: #414143;
+$shade-800: #38383a;
+$shade-900: #282829;
+
+$shade-50-dark: #282829;
+$shade-100-dark: #38383a;
+$shade-200-dark: #414143;
+$shade-300-dark: #4b4b4d;
+$shade-400-dark: #525254;
+$shade-500-dark: #6c6c6e; // Main
+$shade-600-dark: #868687;
+$shade-700-dark: #a9a9aa;
+$shade-800-dark: #cbcbcc;
+$shade-900-dark: #eaeaea;
+
+
+$colors: (
+  --primary-50: ($primary-50, $primary-50),
+  --primary-100: ($primary-100, $primary-100),
+  --primary-200: ($primary-200, $primary-200),
+  --primary-300: ($primary-300, $primary-300),
+  --primary-400: ($primary-400, $primary-400),
+  --primary-500: ($primary-500, $primary-500),
+  --primary-600: ($primary-600, $primary-600),
+  --primary-700: ($primary-700, $primary-700),
+  --primary-800: ($primary-800, $primary-800),
+  --primary-900: ($primary-900, $primary-900),
+  --accent-50: ($accent-50, $accent-50),
+  --accent-100: ($accent-100, $accent-100),
+  --accent-200: ($accent-200, $accent-200),
+  --accent-300: ($accent-300, $accent-300),
+  --accent-400: ($accent-400, $accent-400),
+  --accent-500: ($accent-500, $accent-500),
+  --accent-600: ($accent-600, $accent-600),
+  --accent-700: ($accent-700, $accent-700),
+  --accent-800: ($accent-800, $accent-800),
+  --accent-900: ($accent-900, $accent-900),
+  --shade-50: ($shade-50, $shade-50-dark),
+  --shade-100: ($shade-100, $shade-100-dark),
+  --shade-200: ($shade-200, $shade-200-dark),
+  --shade-300: ($shade-300, $shade-300-dark),
+  --shade-400: ($shade-400, $shade-400-dark),
+  --shade-500: ($shade-400, $shade-500-dark),
+  --shade-600: ($shade-600, $shade-600-dark),
+  --shade-700: ($shade-700, $shade-700-dark),
+  --shade-800: ($shade-800, $shade-800-dark),
+  --shade-900: ($shade-900, $shade-900-dark),
+)

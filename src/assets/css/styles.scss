@@ -1,4 +1,7 @@
 /* You can add global styles to this file, and also import other style files */
+// https://medium.com/swlh/how-to-structure-scss-in-an-angular-app-a1b8a759a028
+@import "theme/theme";
+@import "modules/buttons";
 
 // 1. Base
 body, html {
@@ -11,6 +14,11 @@ body {
   color: rgba(30, 41, 41, 1);
   font-family: 'Spartan', sans-serif;
   font-size: 15px;
+}
+
+a {
+  color: var(--primary-600);
+  text-decoration: none;
 }
 
 // 2. Layout
