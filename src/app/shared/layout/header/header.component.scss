@@ -1,34 +1,37 @@
 @import "../../../../assets/css/base/content";
 
-.header-bar {
-    align-items: center;
-    color: var(--shade-50);
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    margin: 0 auto;
-    padding: 20px;
-    width: $page-width;
-    .logo {
-        color: var(--primary-500);
-    }
-    .main-menu {
+:host {
+    background: var(--shade-50);
+    display: block;
+    .header-bar {
         align-items: center;
         display: flex;
-        gap: 1rem;
-        a {
-            color: var(--shade-600);
-            &.selected {
-                color: var(--primary-500);
-            }
-            &:hover {
-                color: var(--primary-500);
+        flex-direction: row;
+        justify-content: space-between;
+        margin: 0 auto;
+        padding: 20px;
+        width: $page-width;
+        .logo {
+            color: var(--primary-500);
+        }
+        .main-menu {
+            align-items: center;
+            display: flex;
+            gap: 1rem;
+            a {
+                color: var(--shade-600);
+                &.selected {
+                    color: var(--primary-500);
+                }
+                &:hover {
+                    color: var(--primary-500);
+                }
             }
         }
-    }
-    .user-actions {
-        align-items: center;
-        display: flex;
-        gap: 1rem;
+        .user-actions {
+            align-items: center;
+            display: flex;
+            gap: 1rem;
+        }
     }
 }
